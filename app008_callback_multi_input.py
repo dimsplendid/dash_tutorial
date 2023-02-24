@@ -76,6 +76,7 @@ def update_graph(xaxis_column_name, yaxis_column_name,
 
     fig.update_yaxes(title=yaxis_column_name,
                      type='linear' if yaxis_type == 'Linear' else 'log')
+    # fig.update_layout(transition_duration=500)
 
     return fig
 
