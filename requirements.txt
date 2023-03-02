@@ -1,3 +1,5 @@
 dash==2.8.1
 jupyter-dash==0.4.2
 pandas==1.5.3
+jupyterlab==3.6.1
+openpyxl==3.1.1
